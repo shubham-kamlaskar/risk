@@ -1,0 +1,9 @@
+setuptools
+mlflow
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+seaborn
+flask

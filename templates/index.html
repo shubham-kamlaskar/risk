@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Credit Risk Analysis </title>
+    </head>
+
+<body style="text-align:center">
+    <h3> Credit Risk Analysis </h3>
+    <form action="/predict" method="POST">
+
+        <p>person_income : <input type="text" name="income"> </p>
+            <p>person_emp_length : : <input type="text" name="emp"> </p>
+                <p>loan_grade : : <input type="text" name="grade"> </p>
+                    <p>loan_amnt : <input type="text" name="loan"> </p>
+
+                    <p> <input type="submit" name="submit"> </p>
+
+    </form>
+
+    <p> Predict Credit Risk Analysis is :<b> {{prediction}}</b> </p>
+
+
+
+</body>
+
+</html>
